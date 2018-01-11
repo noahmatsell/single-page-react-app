@@ -1,9 +1,18 @@
 import React from 'react';
+import {
+  BrowserRouter,
+  Route
+} from 'react-router-dom';
+
+//components
+import Home from './Home';
 
 const App = () => (
-  <div className="container">
-
-  </div>
+  <BrowserRouter>
+    <div className="container">
+      <Route path="/" component={Home} />
+    </div>
+  </BrowserRouter>
 );
 
 export default App;
