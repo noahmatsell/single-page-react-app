@@ -5,10 +5,10 @@ const Header = () => (
   <header>
     <span className="icn-logo"><i className="material-icons">code</i></span>
     <ul className="main-nav">
-      <li><NavLink exact to="/">Home</NavLink></li>
-      <li><NavLink to="/about">About</NavLink></li>
-      <li><NavLink to="/teachers">Teachers</NavLink></li>
-      <li><NavLink to="/courses">Courses</NavLink></li>
+      <li><NavLink exact to="/single-page-react-app">Home</NavLink></li>
+      <li><NavLink to="/single-page-react-app/about">About</NavLink></li>
+      <li><NavLink to="/single-page-react-app/teachers">Teachers</NavLink></li>
+      <li><NavLink to="/single-page-react-app/courses">Courses</NavLink></li>
     </ul>    
   </header>
 );
