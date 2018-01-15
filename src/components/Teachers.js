@@ -1,5 +1,5 @@
 import React from 'react';
-import TeacherList from '../data/teachers';
+import TeacherList from './data/teachers';
 
 const Teachers = () => {
   let teachers = TeacherList.map((teacher) => {
